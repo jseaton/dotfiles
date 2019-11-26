@@ -1,3 +1,6 @@
 [user]
-	name = Joseph Seaton
-	email = js-gt@sigmanetwork.org
+    name = Jo Seaton
+    email = js-gt@sigmanetwork.org
+
+[include]
+    path = ~/.gitconfig-work

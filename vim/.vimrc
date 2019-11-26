@@ -47,9 +47,13 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
+nnoremap <leader>g :YcmCompleter GoTo<CR>
+
 hi clear SignColumn
 hi clear GitGutterAdd
 hi clear GitGutterChange
 hi clear GitGutterDelete
 hi clear GitGutterChangeDelete
 
+let g:ycm_server_python_interpreter = "/usr/bin/python2"
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
