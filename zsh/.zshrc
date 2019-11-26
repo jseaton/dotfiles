@@ -51,3 +51,5 @@ pacman () {
 yaourt () { 
 	/usr/bin/yaourt $* && echo "$*" | grep -q "S\|R\|U" && rehash
 }
+
+PROMPT="%{$fg[cyan]%}%m%} ${PROMPT}"
